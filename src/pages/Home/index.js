@@ -8,6 +8,8 @@ import LinkItem from '../../components/LinkItem';
 import api from '../../services/api';
 import { saveLink } from '../../services/storeLinks';
 
+import Logo from '../../components/img/logo.png'
+
 export default function Home() {
     const [link, setLink] = useState('');
     const [data, setData] = useState({});
@@ -39,7 +41,7 @@ export default function Home() {
   
         <div className="logo">
 
-            <img className='linkLogo' src="/logo.png" alt="mylink logo" />
+            <img className='linkLogo' src={Logo} alt="mylink logo" />
             <h1> MyLink </h1>
             <span> Cole seu link para encurtar </span>
 

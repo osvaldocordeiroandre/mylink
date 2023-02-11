@@ -51,7 +51,7 @@ export default function Links() {
   
         <div className='links-header'>
 
-            <Link to="/"> <FiArrowLeft size={38} color="#FFF" />  </Link>
+            <Link to="/mylink"> <FiArrowLeft size={38} color="#FFF" />  </Link>
             <h1> Meus Links </h1>
 
         </div>
